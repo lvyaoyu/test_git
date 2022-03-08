@@ -7,8 +7,8 @@ from pydantic import BaseModel
 
 
 class _Setting(BaseModel):
-    branch_name = 'main'
-    update_time = '2022-03-08 12:11'
+    branch_name = 'branch'
+    update_time = '2022-03-08 12:35'
 
 
 setting = _Setting()
